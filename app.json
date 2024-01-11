@@ -2,6 +2,13 @@
   "expo": {
     "name": "GoalsApp",
     "slug": "GoalsApp",
+    "backgroundColor": "#690060",
+    "primaryColor": "#690060",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#690060",
+      "translucent": "false"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,9 +18,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
